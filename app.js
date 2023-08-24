@@ -248,8 +248,8 @@ const sendEmail = async (to, subject, html) => {
 
 // Your code for setting up database models and connections
 
-app.post("/sendtoall", async (req, res) => {
-  // cron.schedule("0 10 * * *", async (req, res) => {
+// app.post("/sendtoall", async (req, res) => {
+  cron.schedule("0 10 * * *", async (req, res) => {
   const mailSubject = req.body.subject;
   const mailHtml = req.body.html;
 
@@ -284,7 +284,7 @@ app.post("/sendtoall", async (req, res) => {
       <h6>Related Topics:</h6>
       <p>${challengeDetails.topicTags}</p>
       
-      <p>TO unsubscribe visit <a href="/delete">UNSUBSCRIBE</a></p>`;
+      <p>To unsubscribe visit <a href="https://leetcode-yw2q.onrender.com/delete">Unsubscribe</a></p>`;
       const mailSubject = `${challengeDetails.title}`;
       sendEmail(emailData.email, mailSubject, personalizedHtml);
     });
