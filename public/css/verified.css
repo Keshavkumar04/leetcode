@@ -1,0 +1,88 @@
+/* *{
+	border: 2px solid red;
+} */
+
+body{
+	margin: 0;
+	padding: 0;
+  background-color: rgb(144, 216, 247);
+}
+
+h1{
+	text-align: center;
+	margin: 20px;
+	padding: 10px;
+  font-family: 'Tilt Prism', cursive;
+  font-size: 80px
+}
+
+p{
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+  font-family: 'Tektur', cursive;
+  font-size: 40px;
+}
+
+input{
+	margin: 5px;
+    width: 240px;
+    padding: 10px;
+    height: 16px;
+    background-color: transparent;
+    font-family: 'Tektur', cursive;
+}
+
+button{
+	padding-right: 15px;
+    padding-left: 15px;
+    height: 40px;
+    font-family: 'Tektur', cursive;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center; 
+  }
+
+  .image {
+	order: 2; 
+	margin-left: auto;
+  }
+
+  img{
+	height: 90vh;
+  }
+
+
+
+  .content {
+	order: 1; 
+	margin-right: auto; 
+  }
+
+
+  .content{
+	width: 90%;
+	height: 100vh;
+  }
+
+  form{
+	margin-top: 101px;
+    margin-left: 50px;
+  }
+
+h2{
+    display: block;
+    margin-top: 10px;
+    padding: 8px;
+    color: rgb(52, 223, 118);
+    text-align: center;
+    background-color: rgba(62, 249, 106, 0.1);
+    box-shadow: 0 0 10px rgba(76, 251, 114, 0.5);
+    width: 70%; /* Adjust the width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Tektur', cursive;
+}
