@@ -11,7 +11,7 @@ const cron = require("node-cron");
 
 mongoose
   .connect(
-    "mongodb+srv://j67506219:iImhQdDuK9ghlfqH@cluster0.xnyjepo.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://j67506219:TyuZSUjPtMq6Ih6F@cluster0.xnyjepo.mongodb.net/?retryWrites=true&w=majority"
   )
   // .connect("mongodb://127.0.0.1:27017/Newsletter")
   // mongoose.connect(dbUrl)
